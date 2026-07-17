@@ -1,0 +1,1293 @@
+{
+  "generatedAt": "2026-07-16T18:45:25.490Z",
+  "count": 99,
+  "games": [
+    {
+      "appid": 10,
+      "name": "Counter-Strike",
+      "tags": [
+        "Action",
+        "FPS",
+        "Multiplayer",
+        "Shooter"
+      ],
+      "reviewPct": 97,
+      "reviewCount": 250245,
+      "short": "Play the world's number 1 online action game. Engage in an incredibly realistic brand of terrorist warfare in this wildly popular team-based game. Ally with teammates to complete strategic missions. Take out enemy sites. Rescue hostages. Your role affects your team's success. Your team's success aff"
+    },
+    {
+      "appid": 70,
+      "name": "Half-Life",
+      "tags": [
+        "FPS",
+        "Classic",
+        "1990's",
+        "Singleplayer"
+      ],
+      "reviewPct": 97,
+      "reviewCount": 148221,
+      "short": "Named Game of the Year by over 50 publications, Valve's debut title blends action and adventure with award-winning technology to create a frighteningly realistic world where players must think to survive. Also includes an exciting multiplayer mode that allows you to play against friends and enemies "
+    },
+    {
+      "appid": 100,
+      "name": "Counter-Strike: Condition Zero",
+      "tags": [
+        "Action",
+        "FPS",
+        "Shooter",
+        "Multiplayer"
+      ],
+      "reviewPct": 90,
+      "reviewCount": 14977,
+      "short": "With its extensive Tour of Duty campaign, a near-limitless number of skirmish modes, updates and new content for Counter-Strike's award-winning multiplayer game play, plus over 12 bonus single player missions, Counter-Strike: Condition Zero is a tremendous offering of single and multiplayer content."
+    },
+    {
+      "appid": 220,
+      "name": "Half-Life 2",
+      "tags": [
+        "FPS",
+        "Action",
+        "Sci-fi",
+        "Classic"
+      ],
+      "reviewPct": 98,
+      "reviewCount": 245627,
+      "short": "Reawakened from stasis in the occupied metropolis of City 17, Gordon Freeman is joined by Alyx Vance as he leads a desperate human resistance. Experience the landmark first-person shooter packed with immersive world-building, boundary-pushing physics, and exhilarating combat."
+    },
+    {
+      "appid": 240,
+      "name": "Counter-Strike: Source",
+      "tags": [
+        "Shooter",
+        "FPS",
+        "Action",
+        "Multiplayer"
+      ],
+      "reviewPct": 96,
+      "reviewCount": 182234,
+      "short": "Counter-Strike: Source blends Counter-Strike's award-winning teamplay action with the advanced technology of Source™ technology."
+    },
+    {
+      "appid": 320,
+      "name": "Half-Life 2: Deathmatch",
+      "tags": [
+        "Action",
+        "FPS",
+        "Multiplayer",
+        "Shooter"
+      ],
+      "reviewPct": 91,
+      "reviewCount": 14296,
+      "short": "Fast multiplayer action set in the Half-Life 2 universe! HL2's physics adds a new dimension to deathmatch play. Play straight deathmatch or try Combine vs. Resistance teamplay. Toss a toilet at your friend today!"
+    },
+    {
+      "appid": 340,
+      "name": "Half-Life 2: Lost Coast",
+      "tags": [
+        "FPS",
+        "Action",
+        "Singleplayer",
+        "First-Person"
+      ],
+      "reviewPct": 89,
+      "reviewCount": 13686,
+      "short": "Originally planned as a section of the Highway 17 chapter of Half-Life 2, Lost Coast is a playable technology showcase that introduces High Dynamic Range lighting to the Source engine."
+    },
+    {
+      "appid": 400,
+      "name": "Portal",
+      "tags": [
+        "Puzzle",
+        "Puzzle-Platformer",
+        "First-Person",
+        "3D Platformer"
+      ],
+      "reviewPct": 98,
+      "reviewCount": 177741,
+      "short": "Portal™ is a new single player game from Valve. Set in the mysterious Aperture Science Laboratories, Portal has been called one of the most innovative new games on the horizon and will offer gamers hours of unique gameplay."
+    },
+    {
+      "appid": 440,
+      "name": "Team Fortress 2",
+      "tags": [
+        "Free to Play",
+        "Hero Shooter",
+        "Multiplayer",
+        "FPS"
+      ],
+      "reviewPct": 90,
+      "reviewCount": 1161472,
+      "short": "Nine distinct classes provide a broad range of tactical abilities and personalities. Constantly updated with new game modes, maps, equipment and, most importantly, hats!"
+    },
+    {
+      "appid": 550,
+      "name": "Left 4 Dead 2",
+      "tags": [
+        "Zombies",
+        "Co-op",
+        "FPS",
+        "Multiplayer"
+      ],
+      "reviewPct": 98,
+      "reviewCount": 963983,
+      "short": "Set in the zombie apocalypse, Left 4 Dead 2 is a co-operative action horror FPS takes you and your friends through the cities, swamps and cemeteries of the Deep South, from Savannah to New Orleans across five expansive campaigns."
+    },
+    {
+      "appid": 730,
+      "name": "Counter-Strike 2",
+      "tags": [
+        "FPS",
+        "Shooter",
+        "Multiplayer",
+        "Competitive"
+      ],
+      "reviewPct": 87,
+      "reviewCount": 8815087,
+      "short": "For over two decades, Counter-Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter-Strike 2."
+    },
+    {
+      "appid": 4000,
+      "name": "Garry's Mod",
+      "tags": [
+        "Sandbox",
+        "Moddable",
+        "Multiplayer",
+        "Physics"
+      ],
+      "reviewPct": 97,
+      "reviewCount": 1159707,
+      "short": "Garry's Mod is a physics sandbox. There aren't any predefined aims or goals. We give you the tools and leave you to play."
+    },
+    {
+      "appid": 8930,
+      "name": "Sid Meier's Civilization® V",
+      "tags": [
+        "Turn-Based Strategy",
+        "Strategy",
+        "Turn-Based",
+        "Multiplayer"
+      ],
+      "reviewPct": 96,
+      "reviewCount": 204265,
+      "short": "Create, discover, and download new player-created maps, scenarios, interfaces, and more!"
+    },
+    {
+      "appid": 49520,
+      "name": "Borderlands 2",
+      "tags": [
+        "Loot",
+        "Shooter",
+        "Action",
+        "Multiplayer"
+      ],
+      "reviewPct": 92,
+      "reviewCount": 295218,
+      "short": "The Ultimate Vault Hunter’s Upgrade lets you get the most out of the Borderlands 2 experience."
+    },
+    {
+      "appid": 105600,
+      "name": "Terraria",
+      "tags": [
+        "Open World Survival Craft",
+        "Sandbox",
+        "Survival",
+        "2D"
+      ],
+      "reviewPct": 97,
+      "reviewCount": 1409473,
+      "short": "Dig, fight, explore, build! Nothing is impossible in this action-packed adventure game. Four Pack also available!"
+    },
+    {
+      "appid": 107410,
+      "name": "Arma 3",
+      "tags": [
+        "Military",
+        "Action",
+        "Multiplayer",
+        "Shooter"
+      ],
+      "reviewPct": 90,
+      "reviewCount": 283264,
+      "short": "Experience true combat gameplay in a massive military sandbox. Deploy with a wide variety of single- and multiplayer content, a massive arsenal of modern weapons and vehicles, and limitless opportunities for content creation. Authentic, diverse, open - Arma 3 sends you to war."
+    },
+    {
+      "appid": 108600,
+      "name": "Project Zomboid",
+      "tags": [
+        "Survival",
+        "Zombies",
+        "Open World",
+        "Multiplayer"
+      ],
+      "reviewPct": 94,
+      "reviewCount": 377063,
+      "short": "Project Zomboid is the ultimate in zombie survival. Alone or in MP: you loot, build, craft, fight, farm and fish in a struggle to survive. A hardcore RPG skillset, a vast map, massively customisable sandbox and a cute tutorial raccoon await the unwary. So how will you die? All it takes is a bite.."
+    },
+    {
+      "appid": 218620,
+      "name": "PAYDAY 2",
+      "tags": [
+        "Co-op",
+        "Action",
+        "FPS",
+        "Heist"
+      ],
+      "reviewPct": 90,
+      "reviewCount": 663082,
+      "short": "PAYDAY 2 is an action-packed, four-player co-op shooter that once again lets gamers don the masks of the original PAYDAY crew - Dallas, Hoxton, Wolf and Chains - as they descend on Washington DC for an epic crime spree."
+    },
+    {
+      "appid": 219990,
+      "name": "Grim Dawn",
+      "tags": [
+        "Action RPG",
+        "Hack and Slash",
+        "Loot",
+        "Isometric"
+      ],
+      "reviewPct": 94,
+      "reviewCount": 99730,
+      "short": "Enter an apocalyptic fantasy world where humanity is on the brink of extinction, iron is valued above gold and trust is hard earned. This ARPG features complex character development, hundreds of unique items, crafting and quests with choice &amp; consequence."
+    },
+    {
+      "appid": 221100,
+      "name": "DayZ",
+      "tags": [
+        "Survival",
+        "Open World",
+        "Online Co-Op",
+        "Zombies"
+      ],
+      "reviewPct": 77,
+      "reviewCount": 430252,
+      "short": "How long can you survive a post-apocalyptic world? A land overrun with an infected &quot;zombie&quot; population, where you compete with other survivors for limited resources. Will you team up with strangers and stay strong together? Or play as a lone wolf to avoid betrayal? This is DayZ – this is y"
+    },
+    {
+      "appid": 227300,
+      "name": "Euro Truck Simulator 2",
+      "tags": [
+        "Driving",
+        "Transportation",
+        "Simulation",
+        "Open World"
+      ],
+      "reviewPct": 97,
+      "reviewCount": 867404,
+      "short": "Travel across Europe as king of the road, a trucker who delivers important cargo across impressive distances! With dozens of cities to explore, your endurance, skill and speed will all be pushed to their limits."
+    },
+    {
+      "appid": 227940,
+      "name": "Heroes & Generals",
+      "tags": [
+        "Free to Play",
+        "World War II",
+        "FPS",
+        "Multiplayer"
+      ],
+      "reviewPct": 68,
+      "reviewCount": 142763,
+      "short": "Shoot, blow sh!t up, fly or bark orders in the ultimate Free-to-Play, large scale, multiplayer, shooter experience. Thousands of players in multiple battles fighting one massive war of nations. The first to capture 15 cities takes the glory."
+    },
+    {
+      "appid": 230410,
+      "name": "Warframe",
+      "tags": [
+        "Free to Play",
+        "Action RPG",
+        "Looter Shooter",
+        "Third-Person Shooter"
+      ],
+      "reviewPct": 87,
+      "reviewCount": 626503,
+      "short": "Awaken as an unstoppable warrior and battle alongside your friends in this story-driven free-to-play online action game"
+    },
+    {
+      "appid": 236390,
+      "name": "War Thunder",
+      "tags": [
+        "Free to Play",
+        "Simulation",
+        "Vehicular Combat",
+        "Combat"
+      ],
+      "reviewPct": 64,
+      "reviewCount": 757086,
+      "short": "War Thunder is the most comprehensive free-to-play, cross-platform, MMO military game dedicated to aviation, armoured vehicles, and naval craft, from the early 20th century to the most advanced modern combat units. Join now and take part in major battles on land, in the air, and at sea."
+    },
+    {
+      "appid": 238960,
+      "name": "Path of Exile",
+      "tags": [
+        "Free to Play",
+        "Dark Fantasy",
+        "Action RPG",
+        "Hack and Slash"
+      ],
+      "reviewPct": 89,
+      "reviewCount": 235091,
+      "short": "You are an Exile, struggling to survive on the dark continent of Wraeclast, as you fight to earn power that will allow you to exact your revenge against those who wronged you. Path of Exile is an online Action RPG set in a dark fantasy world. The game is completely free and will never be pay-to-win."
+    },
+    {
+      "appid": 239140,
+      "name": "Dying Light",
+      "tags": [
+        "Zombies",
+        "Survival Horror",
+        "Horror",
+        "Online Co-Op"
+      ],
+      "reviewPct": 95,
+      "reviewCount": 457632,
+      "short": "First-person action survival game set in a post-apocalyptic open world overrun by flesh-hungry zombies. Roam a city devastated by a mysterious virus epidemic. Scavenge for supplies, craft weapons, and face hordes of the infected."
+    },
+    {
+      "appid": 242760,
+      "name": "The Forest",
+      "tags": [
+        "Open World Survival Craft",
+        "Survival",
+        "Open World",
+        "Horror"
+      ],
+      "reviewPct": 96,
+      "reviewCount": 627791,
+      "short": "As the lone survivor of a passenger jet crash, you find yourself in a mysterious forest battling to stay alive against a society of cannibalistic mutants. Build, explore, survive in this terrifying first person survival horror simulator."
+    },
+    {
+      "appid": 251570,
+      "name": "7 Days to Die",
+      "tags": [
+        "Survival",
+        "Zombies",
+        "Multiplayer",
+        "Open World"
+      ],
+      "reviewPct": 89,
+      "reviewCount": 370046,
+      "short": "7 Days to Die is an open-world game that is a unique combination of first-person shooter, survival horror, tower defense, and role-playing games. Play the definitive zombie survival sandbox RPG that came first. Navezgane awaits!"
+    },
+    {
+      "appid": 252490,
+      "name": "Rust",
+      "tags": [
+        "Survival",
+        "Crafting",
+        "Multiplayer",
+        "Open World"
+      ],
+      "reviewPct": 87,
+      "reviewCount": 1227784,
+      "short": "The only aim in Rust is to survive. Everything wants you to die - the island’s wildlife, other inhabitants, the environment, and other survivors. Do whatever it takes to last another night."
+    },
+    {
+      "appid": 252950,
+      "name": "Rocket League®",
+      "tags": [
+        "Multiplayer",
+        "Football (Soccer)",
+        "Competitive",
+        "Sports"
+      ],
+      "reviewPct": 87,
+      "reviewCount": 583220,
+      "short": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the ru"
+    },
+    {
+      "appid": 255710,
+      "name": "Cities: Skylines",
+      "tags": [
+        "City Builder",
+        "Simulation",
+        "Building",
+        "Management"
+      ],
+      "reviewPct": 93,
+      "reviewCount": 275770,
+      "short": "Cities: Skylines is a modern take on the classic city simulation. The game introduces new game play elements to realize the thrill and hardships of creating and maintaining a real city whilst expanding on some well-established tropes of the city building experience."
+    },
+    {
+      "appid": 261550,
+      "name": "Mount & Blade II: Bannerlord",
+      "tags": [
+        "Medieval",
+        "Strategy",
+        "Open World",
+        "RPG"
+      ],
+      "reviewPct": 88,
+      "reviewCount": 264391,
+      "short": "A strategy/action RPG. Create a character, engage in diplomacy, craft, trade and conquer new lands in a vast medieval sandbox. Raise armies to lead into battle and command and fight alongside your troops in massive real-time battles using a deep but intuitive skill-based combat system."
+    },
+    {
+      "appid": 271590,
+      "name": "Grand Theft Auto V Legacy",
+      "tags": [
+        "Open World",
+        "Action",
+        "Multiplayer",
+        "Crime"
+      ],
+      "reviewPct": 87,
+      "reviewCount": 1990556,
+      "short": "Grand Theft Auto V for PC offers players the option to explore the award-winning world of Los Santos and Blaine County in resolutions of up to 4k and beyond, as well as the chance to experience the game running at 60 frames per second."
+    },
+    {
+      "appid": 289070,
+      "name": "Sid Meier’s Civilization® VI",
+      "tags": [
+        "Strategy",
+        "Turn-Based Strategy",
+        "Multiplayer",
+        "Historical"
+      ],
+      "reviewPct": 87,
+      "reviewCount": 349920,
+      "short": "Expand your empire, advance your culture and go head-to-head against history’s greatest leaders. Will your civilization stand the test of time?"
+    },
+    {
+      "appid": 291480,
+      "name": "Warface: Clutch",
+      "tags": [
+        "Free to Play",
+        "FPS",
+        "Multiplayer",
+        "Shooter"
+      ],
+      "reviewPct": 66,
+      "reviewCount": 82197,
+      "short": "𝗪𝗮𝗿𝗳𝗮𝗰𝗲: 𝗖𝗹𝘂𝘁𝗰𝗵 𝗶𝘀 𝗮 𝗰𝗼𝗻𝘁𝗲𝗺𝗽𝗼𝗿𝗮𝗿𝘆 𝗠𝗠𝗢 𝗳𝗶𝗿𝘀𝘁 𝗽𝗲𝗿𝘀𝗼𝗻 𝘀𝗵𝗼𝗼𝘁𝗲𝗿 𝘄𝗶𝘁𝗵 𝗺𝗶𝗹𝗹𝗶𝗼𝗻𝘀 𝗼𝗳 𝗳𝗮𝗻𝘀 𝗮𝗿𝗼𝘂𝗻𝗱 𝘁𝗵𝗲 𝘄𝗼𝗿𝗹𝗱. 𝗜𝘁 𝗼𝗳𝗳𝗲𝗿𝘀 𝗶𝗻𝘁𝗲𝗻𝘀𝗲 𝗣𝘃𝗣 𝗺𝗼𝗱𝗲𝘀, 𝗰𝗼𝗺𝗽𝗲𝗹𝗹𝗶𝗻𝗴 𝗣𝘃𝗘 𝗺𝗶𝘀𝘀𝗶𝗼𝗻𝘀 𝗮𝗻𝗱 𝗿𝗮𝗶𝗱𝘀 𝘁𝗵\ud835"
+    },
+    {
+      "appid": 291550,
+      "name": "Brawlhalla",
+      "tags": [
+        "Free to Play",
+        "Multiplayer",
+        "Fighting",
+        "2D Fighter"
+      ],
+      "reviewPct": 81,
+      "reviewCount": 386456,
+      "short": "An epic platform fighter for up to 8 players online or local. Try casual free-for-alls, ranked matches, or invite friends to a private room. And it's free! Play cross-platform with millions of players on PlayStation, Xbox, Nintendo Switch, iOS, Android &amp; Steam! Frequent updates. Over sixty Legen"
+    },
+    {
+      "appid": 292030,
+      "name": "The Witcher 3: Wild Hunt",
+      "tags": [
+        "Open World",
+        "RPG",
+        "Story Rich",
+        "Atmospheric"
+      ],
+      "reviewPct": 96,
+      "reviewCount": 835349,
+      "short": "You are Geralt of Rivia, mercenary monster slayer. Before you stands a war-torn, monster-infested continent you can explore at will. Your current contract? Tracking down Ciri — the Child of Prophecy, a living weapon that can alter the shape of the world."
+    },
+    {
+      "appid": 304050,
+      "name": "Trove",
+      "tags": [
+        "Free to Play",
+        "Open World",
+        "Sandbox",
+        "Pixel Graphics"
+      ],
+      "reviewPct": 80,
+      "reviewCount": 92370,
+      "short": "Grab your friends, hone your blades, and set off for an epic procedurally generated adventure in Trove! Battle the Shadow in realms filled with dungeons and items created by your fellow players. Whether hunting treasure or building realms of your own, it’s never been this good to be square!"
+    },
+    {
+      "appid": 304930,
+      "name": "Unturned",
+      "tags": [
+        "Free to Play",
+        "Survival",
+        "Zombies",
+        "Multiplayer"
+      ],
+      "reviewPct": 91,
+      "reviewCount": 555368,
+      "short": "Unturned is an open-world zombie survival sandbox game. As one of the few not yet turned, you must fight to remain among the living."
+    },
+    {
+      "appid": 322330,
+      "name": "Don't Starve Together",
+      "tags": [
+        "Survival",
+        "Open World Survival Craft",
+        "Multiplayer",
+        "Co-op"
+      ],
+      "reviewPct": 95,
+      "reviewCount": 499061,
+      "short": "Fight, Farm, Build and Explore Together in the standalone multiplayer expansion to the uncompromising wilderness survival game, Don't Starve."
+    },
+    {
+      "appid": 346110,
+      "name": "ARK: Survival Evolved",
+      "tags": [
+        "Open World Survival Craft",
+        "Survival",
+        "Multiplayer",
+        "Open World"
+      ],
+      "reviewPct": 84,
+      "reviewCount": 730170,
+      "short": "Stranded on the shores of a mysterious island, you must learn to survive. Use your cunning to kill or tame the primeval creatures roaming the land, and encounter other players to survive, dominate... and escape!"
+    },
+    {
+      "appid": 359550,
+      "name": "Tom Clancy's Rainbow Six Siege",
+      "tags": [
+        "FPS",
+        "PvP",
+        "Multiplayer",
+        "Tactical"
+      ],
+      "reviewPct": 84,
+      "reviewCount": 1398584,
+      "short": "Tom Clancy's Rainbow Six Siege is an elite, tactical team-based shooter where superior planning and execution triumph."
+    },
+    {
+      "appid": 377160,
+      "name": "Fallout 4",
+      "tags": [
+        "Open World",
+        "Post-apocalyptic",
+        "Singleplayer",
+        "Exploration"
+      ],
+      "reviewPct": 83,
+      "reviewCount": 392287,
+      "short": "From Bethesda Game Studios, the award-winning creators of Starfield and The Elder Scrolls V: Skyrim, comes Fallout 4. A landmark in open-world RPG design and winner of over 200 ‘Best Of’ honors, including the DICE and BAFTA Game of the Year."
+    },
+    {
+      "appid": 381210,
+      "name": "Dead by Daylight",
+      "tags": [
+        "Horror",
+        "Multiplayer",
+        "Survival Horror",
+        "Online Co-Op"
+      ],
+      "reviewPct": 79,
+      "reviewCount": 797216,
+      "short": "10 years of horror. 10 years of jump scares and close calls. 10 years of brutal sacrifices and thrilling escapes. Trapped forever in a realm of eldritch evil where even death is not an escape, four determined Survivors face a bloodthirsty Killer in a vicious game of nerve and wits."
+    },
+    {
+      "appid": 386360,
+      "name": "SMITE®",
+      "tags": [
+        "Free to Play",
+        "MOBA",
+        "Multiplayer",
+        "Action"
+      ],
+      "reviewPct": 79,
+      "reviewCount": 119796,
+      "short": "Join 40+ million players in SMITE, the Battleground of the Gods! Wield Thor’s hammer, turn your foes to stone as Medusa, or flex your divine power as one of 100+ other mythological icons. Become a God and play FREE today!"
+    },
+    {
+      "appid": 413150,
+      "name": "Stardew Valley",
+      "tags": [
+        "Farming Sim",
+        "Pixel Graphics",
+        "Multiplayer",
+        "Life Sim"
+      ],
+      "reviewPct": 98,
+      "reviewCount": 886195,
+      "short": "You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home?"
+    },
+    {
+      "appid": 417910,
+      "name": "Street Warriors Online",
+      "tags": [
+        "Fighting",
+        "Action",
+        "Multiplayer",
+        "Sports"
+      ],
+      "reviewPct": 58,
+      "reviewCount": 1634,
+      "short": "First, realistic PvP brawling game for up to 8 vs 8 players with original, dynamic combat system and fast, round based battles. Create and develop Your character. Earn new skills and items that helps You beat Your opponents. Gather Your friends and fight together in a clan."
+    },
+    {
+      "appid": 431960,
+      "name": "Wallpaper Engine",
+      "tags": [
+        "Mature",
+        "Utilities",
+        "Anime",
+        "Software"
+      ],
+      "reviewPct": 98,
+      "reviewCount": 894458,
+      "short": "Use stunning live wallpapers on your desktop. Animate your own images to create new wallpapers or import videos/websites and share them on the Steam Workshop!"
+    },
+    {
+      "appid": 433850,
+      "name": "Z1 Battle Royale",
+      "tags": [
+        "Survival",
+        "Massively Multiplayer",
+        "Multiplayer",
+        "Open World"
+      ],
+      "reviewPct": 56,
+      "reviewCount": 204013,
+      "short": "Z1 Battle Royale is a Free to Play, fast-paced, action arcade, competitive Battle Royale. Staying true to its &quot;King of the Kill&quot; roots, the game has been revamped and restored to the classic feel, look, and gameplay everyone fell in love with. Play solo, duos, or fives and be the last ones"
+    },
+    {
+      "appid": 438100,
+      "name": "VRChat",
+      "tags": [
+        "VR",
+        "Free to Play",
+        "Multiplayer",
+        "Anime"
+      ],
+      "reviewPct": 76,
+      "reviewCount": 240355,
+      "short": "Join our growing community as you explore, play, and help craft the future of social VR. Create worlds and custom avatars. Welcome to VRChat."
+    },
+    {
+      "appid": 444090,
+      "name": "Paladins®",
+      "tags": [
+        "Hero Shooter",
+        "Free to Play",
+        "Multiplayer",
+        "FPS"
+      ],
+      "reviewPct": 85,
+      "reviewCount": 346404,
+      "short": "Paladins is the ultimate fantasy team-based shooter experience, with over 50 customizable Champions fighting in 5v5 action across a diverse Realm of modes and maps!"
+    },
+    {
+      "appid": 444200,
+      "name": "World of Tanks Blitz",
+      "tags": [
+        "Tanks",
+        "Free to Play",
+        "Shooter",
+        "Action"
+      ],
+      "reviewPct": 79,
+      "reviewCount": 148161,
+      "short": "Blow off steam and tank turrets in a free-to-play online 7v7 tank shooter! Drive hundreds of tanks, from museum classics to &quot;did-that-ever-exist?&quot; specials, in quick 5 to 7-minute brawls packed with metal mayhem. Play solo or team up with a friend and enjoy smooth action even on modest har"
+    },
+    {
+      "appid": 477160,
+      "name": "Human Fall Flat",
+      "tags": [
+        "Co-op",
+        "Funny",
+        "Puzzle",
+        "Adventure"
+      ],
+      "reviewPct": 95,
+      "reviewCount": 213640,
+      "short": "Human Fall Flat is a hilarious, light-hearted platformer set in floating dreamscapes that can be played solo or with up to 8 players online. Free new levels keep its vibrant community rewarded."
+    },
+    {
+      "appid": 526870,
+      "name": "Satisfactory",
+      "tags": [
+        "Base-Building",
+        "Automation",
+        "Open World",
+        "Multiplayer"
+      ],
+      "reviewPct": 97,
+      "reviewCount": 232064,
+      "short": "Satisfactory is a first-person open-world factory building game with a dash of exploration and combat. Play alone or with friends, explore an alien planet, create multi-story factories, and enter conveyor belt heaven!"
+    },
+    {
+      "appid": 532210,
+      "name": "Life is Strange 2",
+      "tags": [
+        "Choices Matter",
+        "Story Rich",
+        "Adventure",
+        "Singleplayer"
+      ],
+      "reviewPct": 86,
+      "reviewCount": 36634,
+      "short": "After a tragic incident, brothers Sean and Daniel Diaz run away from home. Fearing the police, and dealing with Daniel's new telekinetic power, the boys head to Mexico. Each stop on their journey brings new friends and new challenges."
+    },
+    {
+      "appid": 550650,
+      "name": "Black Squad",
+      "tags": [
+        "Free to Play",
+        "FPS",
+        "Shooter",
+        "Multiplayer"
+      ],
+      "reviewPct": 76,
+      "reviewCount": 81714,
+      "short": "Black Squad is a free-to-play military first-person-shooter. Players can master their skills and show off their strategies with a wide range of game maps, modes, and weapons to choose from. Join thousands of FPS players worldwide in one of the most played games on Steam!"
+    },
+    {
+      "appid": 552990,
+      "name": "World of Warships",
+      "tags": [
+        "Free to Play",
+        "Naval Combat",
+        "Action",
+        "Co-op"
+      ],
+      "reviewPct": 77,
+      "reviewCount": 146552,
+      "short": "Immerse yourself in thrilling naval battles and assemble an armada of over 800 ships from the first half of the 20th century — from stealthy destroyers to gigantic battleships. Change the look of your ship, choose upgrades to suit your play style, and go into battle with other players!"
+    },
+    {
+      "appid": 553850,
+      "name": "HELLDIVERS™ 2",
+      "tags": [
+        "Online Co-Op",
+        "PvE",
+        "Third-Person Shooter",
+        "Multiplayer"
+      ],
+      "reviewPct": 76,
+      "reviewCount": 1017635,
+      "short": "The Galaxy’s Last Line of Offence. Enlist in the Helldivers and join the fight for freedom across a hostile galaxy in a fast, frantic, and ferocious third-person shooter."
+    },
+    {
+      "appid": 578080,
+      "name": "PUBG: BATTLEGROUNDS",
+      "tags": [
+        "Survival",
+        "Shooter",
+        "Battle Royale",
+        "Multiplayer"
+      ],
+      "reviewPct": 59,
+      "reviewCount": 2557944,
+      "short": "PUBG: BATTLEGROUNDS, the high-stakes winner-take-all shooter that started the Battle Royale craze, is free-to-play! Drop into diverse maps, loot unique weapons and supplies, and survive in an ever-shrinking zone where every turn could be your last."
+    },
+    {
+      "appid": 582010,
+      "name": "Monster Hunter: World",
+      "tags": [
+        "Co-op",
+        "Multiplayer",
+        "Action",
+        "Open World"
+      ],
+      "reviewPct": 88,
+      "reviewCount": 493390,
+      "short": "Welcome to a new world! In Monster Hunter: World, the latest installment in the series, you can enjoy the ultimate hunting experience, using everything at your disposal to hunt monsters in a new world teeming with surprises and excitement."
+    },
+    {
+      "appid": 594650,
+      "name": "Hunt: Showdown 1896",
+      "tags": [
+        "Open World",
+        "Extraction Shooter",
+        "Multiplayer",
+        "Atmospheric"
+      ],
+      "reviewPct": 73,
+      "reviewCount": 248220,
+      "short": "Hunt: Showdown 1896 is the brutally rewarding extraction shooter. Track twisted monsters and overcome ruthless PvP. Take bounties in corrupted backwaters lost to history. With a team, you might survive. Die with nothing or get out with everything."
+    },
+    {
+      "appid": 632360,
+      "name": "Risk of Rain 2",
+      "tags": [
+        "Third-Person Shooter",
+        "Action Roguelike",
+        "Multiplayer",
+        "Co-op"
+      ],
+      "reviewPct": 93,
+      "reviewCount": 313577,
+      "short": "Escape a chaotic alien planet by fighting through hordes of frenzied monsters – with your friends, or on your own. Combine loot in surprising ways and master each character until you become the havoc you feared upon your first crash landing."
+    },
+    {
+      "appid": 648800,
+      "name": "Raft",
+      "tags": [
+        "Survival",
+        "Multiplayer",
+        "Open World Survival Craft",
+        "Co-op"
+      ],
+      "reviewPct": 93,
+      "reviewCount": 346359,
+      "short": "Raft™ throws you and your friends into an epic oceanic adventure! Alone or together, players battle to survive a perilous voyage across a vast sea! Gather debris, scavenge reefs and build your own floating home, but be wary of the man-eating sharks!"
+    },
+    {
+      "appid": 739630,
+      "name": "Phasmophobia",
+      "tags": [
+        "Horror",
+        "Online Co-Op",
+        "Multiplayer",
+        "Psychological Horror"
+      ],
+      "reviewPct": 96,
+      "reviewCount": 768779,
+      "short": "Phasmophobia is a 4 player online co-op psychological horror. Paranormal activity is on the rise and it’s up to you and your team to use all the ghost-hunting equipment at your disposal in order to gather as much evidence as you can."
+    },
+    {
+      "appid": 755790,
+      "name": "Ring of Elysium",
+      "tags": [
+        "Free to Play",
+        "Battle Royale",
+        "Shooter",
+        "Multiplayer"
+      ],
+      "reviewPct": 74,
+      "reviewCount": 99837,
+      "short": "Escape an astonishing disaster in Ring of Elysium, a battle royale shooter developed by Aurora Studio."
+    },
+    {
+      "appid": 814380,
+      "name": "Sekiro™: Shadows Die Twice - GOTY Edition",
+      "tags": [
+        "Souls-like",
+        "Difficult",
+        "Action",
+        "Singleplayer"
+      ],
+      "reviewPct": 95,
+      "reviewCount": 322234,
+      "short": "Game of the Year - The Game Awards 2019 Best Action Game of 2019 - IGN Carve your own clever path to vengeance in the award winning adventure from developer FromSoftware, creators of Bloodborne and the Dark Souls series. Take Revenge. Restore Your Honor. Kill Ingeniously."
+    },
+    {
+      "appid": 892970,
+      "name": "Valheim",
+      "tags": [
+        "Open World Survival Craft",
+        "Survival",
+        "Online Co-Op",
+        "Open World"
+      ],
+      "reviewPct": 94,
+      "reviewCount": 499828,
+      "short": "A brutal exploration and survival game for 1-10 players, set in a procedurally-generated purgatory inspired by viking culture. Battle, build, and conquer your way to a saga worthy of Odin’s patronage!"
+    },
+    {
+      "appid": 899770,
+      "name": "Last Epoch",
+      "tags": [
+        "Action RPG",
+        "Loot",
+        "Hack and Slash",
+        "RPG"
+      ],
+      "reviewPct": 80,
+      "reviewCount": 110623,
+      "short": "Uncover the Past, Reforge the Future. Ascend into one of 15 mastery classes and explore dangerous dungeons, hunt epic loot, craft legendary weapons, and wield the power of over a hundred transformative skill trees. Last Epoch is being developed by a team of passionate Action RPG enthusiasts."
+    },
+    {
+      "appid": 901583,
+      "name": "Grand Theft Auto IV: Complete Edition",
+      "tags": [
+        "Open World",
+        "Action",
+        "Automobile Sim",
+        "Multiplayer"
+      ],
+      "reviewPct": 82,
+      "reviewCount": 175272,
+      "short": "PLEASE NOTE: Microsoft no longer supports creating Games for Windows-LIVE accounts within Grand Theft Auto IV. You can create an account through and then log into your account in game. This standalone retail title spans three distinct stories, interwoven to create one of the most unique and engaging"
+    },
+    {
+      "appid": 945360,
+      "name": "Among Us",
+      "tags": [
+        "Multiplayer",
+        "Social Deduction",
+        "Online Co-Op",
+        "Space"
+      ],
+      "reviewPct": 92,
+      "reviewCount": 700785,
+      "short": "An online and local party game of teamwork and betrayal for 4-15 players...in space!"
+    },
+    {
+      "appid": 990080,
+      "name": "Hogwarts Legacy",
+      "tags": [
+        "Magic",
+        "Open World",
+        "Fantasy",
+        "Singleplayer"
+      ],
+      "reviewPct": 90,
+      "reviewCount": 321395,
+      "short": "Hogwarts Legacy is an immersive, open-world action RPG. Now you can take control of the action and be at the center of your own adventure in the wizarding world."
+    },
+    {
+      "appid": 1063730,
+      "name": "New World: Aeternum",
+      "tags": [
+        "Open World",
+        "Massively Multiplayer",
+        "MMORPG",
+        "RPG"
+      ],
+      "reviewPct": 69,
+      "reviewCount": 286878,
+      "short": "Experience a thrilling action RPG set on the supernatural island of Aeternum. Forge your destiny on an adventure filled with danger and opportunity."
+    },
+    {
+      "appid": 1085660,
+      "name": "Destiny 2",
+      "tags": [
+        "Free to Play",
+        "Open World",
+        "Multiplayer",
+        "Looter Shooter"
+      ],
+      "reviewPct": 80,
+      "reviewCount": 625616,
+      "short": "Explore the mysteries of Sol and experience exhilirating first-person shooter combat in Destiny 2. Unlock powerful abilities and collect unique gear across story missions, co-op, and PvP modes."
+    },
+    {
+      "appid": 1086940,
+      "name": "Baldur's Gate 3",
+      "tags": [
+        "RPG",
+        "Character Customization",
+        "Choices Matter",
+        "Story Rich"
+      ],
+      "reviewPct": 97,
+      "reviewCount": 760662,
+      "short": "Baldur’s Gate 3 is a story-rich, party-based RPG set in the universe of Dungeons &amp; Dragons, where your choices shape a tale of fellowship and betrayal, survival and sacrifice, and the lure of absolute power."
+    },
+    {
+      "appid": 1089350,
+      "name": "NBA 2K20",
+      "tags": [
+        "Basketball",
+        "Sports",
+        "Simulation",
+        "Multiplayer"
+      ],
+      "reviewPct": 50,
+      "reviewCount": 60673,
+      "short": "NOTE: All multiplayer servers for NBA 2K20 will be shutdown as of 12/31/2021. After that time, all game functions requiring online servers will no longer function."
+    },
+    {
+      "appid": 1091500,
+      "name": "Cyberpunk 2077",
+      "tags": [
+        "Cyberpunk",
+        "Open World",
+        "Nudity",
+        "RPG"
+      ],
+      "reviewPct": 84,
+      "reviewCount": 844921,
+      "short": "Cyberpunk 2077 is an open-world, action-adventure RPG set in the dark future of Night City — a dangerous megalopolis obsessed with power, glamor, and ceaseless body modification."
+    },
+    {
+      "appid": 1097150,
+      "name": "Fall Guys",
+      "tags": [
+        "Multiplayer",
+        "Party Game",
+        "Battle Royale",
+        "Family Friendly"
+      ],
+      "reviewPct": 81,
+      "reviewCount": 473743,
+      "short": "Fall Guys is a free, cross-platform massively multiplayer party royale game. Clumsily compete in absurd obstacle courses with friends or build your very own chaotic course to share with the community."
+    },
+    {
+      "appid": 1172470,
+      "name": "Apex Legends™",
+      "tags": [
+        "Free to Play",
+        "Battle Royale",
+        "Multiplayer",
+        "FPS"
+      ],
+      "reviewPct": 67,
+      "reviewCount": 994979,
+      "short": "Apex Legends is the award-winning, free-to-play Hero Shooter from Respawn Entertainment. Master an ever-growing roster of legendary characters with powerful abilities, and experience strategic squad play and innovative gameplay in the next evolution of Hero Shooter and Battle Royale."
+    },
+    {
+      "appid": 1174180,
+      "name": "Red Dead Redemption 2",
+      "tags": [
+        "Open World",
+        "Story Rich",
+        "Western",
+        "Adventure"
+      ],
+      "reviewPct": 92,
+      "reviewCount": 733542,
+      "short": "Arthur Morgan and the Van der Linde Gang are outlaws on the run. With federal agents and bounty hunters massing on their heels, the gang must rob, steal, and fight their way across the rugged heartland in order to survive."
+    },
+    {
+      "appid": 1203220,
+      "name": "NARAKA: BLADEPOINT",
+      "tags": [
+        "Battle Royale",
+        "Multiplayer",
+        "Martial Arts",
+        "Mature"
+      ],
+      "reviewPct": 70,
+      "reviewCount": 324927,
+      "short": "Dive into the legends of the Far East in NARAKA: BLADEPOINT; team up with friends in fast-paced melee fights for a Battle Royale experience unlike any other. Find your playstyle with a varied cast of heroes with unique skills. More than 40 million players have already joined the fray, play free now!"
+    },
+    {
+      "appid": 1222670,
+      "name": "The Sims™ 4",
+      "tags": [
+        "Life Sim",
+        "Character Customization",
+        "Free to Play",
+        "Building"
+      ],
+      "reviewPct": 87,
+      "reviewCount": 170727,
+      "short": "Play with life and discover the possibilities. Unleash your imagination and create a world of Sims that’s wholly unique. Explore and customize every detail from Sims to homes–and much more."
+    },
+    {
+      "appid": 1238810,
+      "name": "Battlefield™ V",
+      "tags": [
+        "FPS",
+        "Multiplayer",
+        "Singleplayer",
+        "World War II"
+      ],
+      "reviewPct": 71,
+      "reviewCount": 250288,
+      "short": "This is the ultimate Battlefield V experience. Enter mankind’s greatest conflict with the complete arsenal of weapons, vehicles, and gadgets plus the best customization content of Year 1 and 2."
+    },
+    {
+      "appid": 1240440,
+      "name": "Halo Infinite",
+      "tags": [
+        "Free to Play",
+        "FPS",
+        "Multiplayer",
+        "Singleplayer"
+      ],
+      "reviewPct": 70,
+      "reviewCount": 177041,
+      "short": "From one of gaming's most iconic sagas, Halo is bigger than ever. Featuring an expansive open-world campaign and a dynamic free to play multiplayer experience. "
+    },
+    {
+      "appid": 1245620,
+      "name": "ELDEN RING",
+      "tags": [
+        "Souls-like",
+        "Open World",
+        "Dark Fantasy",
+        "RPG"
+      ],
+      "reviewPct": 93,
+      "reviewCount": 1056677,
+      "short": "THE CRITICALLY ACCLAIMED FANTASY ACTION RPG. Rise, Tarnished, and be guided by grace to brandish the power of the Elden Ring and become an Elden Lord in the Lands Between."
+    },
+    {
+      "appid": 1326470,
+      "name": "Sons Of The Forest",
+      "tags": [
+        "Survival",
+        "Open World",
+        "Multiplayer",
+        "Co-op"
+      ],
+      "reviewPct": 88,
+      "reviewCount": 253546,
+      "short": "Sent to find a missing billionaire on a remote island, you find yourself in a cannibal-infested hellscape. Craft, build, and struggle to survive, alone or with friends, in this terrifying new open-world survival horror simulator."
+    },
+    {
+      "appid": 1491000,
+      "name": "War Robots: Frontiers",
+      "tags": [
+        "Free to Play",
+        "Third-Person Shooter",
+        "Mechs",
+        "PvP"
+      ],
+      "reviewPct": 64,
+      "reviewCount": 3082,
+      "short": "Gear up for tactical mech action in War Robots: Frontiers, a free-to-play multiplayer mech shooter. Construct and customize, squad up with Pilots online, and fire up your engines in massive intergalactic battles."
+    },
+    {
+      "appid": 1517290,
+      "name": "Battlefield™ 2042",
+      "tags": [
+        "FPS",
+        "Multiplayer",
+        "Shooter",
+        "Military"
+      ],
+      "reviewPct": 47,
+      "reviewCount": 297774,
+      "short": "Battlefield™ 2042 is a first-person shooter that marks the return to the iconic all-out warfare of the franchise."
+    },
+    {
+      "appid": 1599340,
+      "name": "Lost Ark",
+      "tags": [
+        "MMORPG",
+        "Free to Play",
+        "Action RPG",
+        "Multiplayer"
+      ],
+      "reviewPct": 71,
+      "reviewCount": 202021,
+      "short": "Embark on an odyssey for the Lost Ark in a vast, vibrant world: explore new lands, seek out lost treasures, and test yourself in thrilling action combat in this action-packed free-to-play RPG."
+    },
+    {
+      "appid": 1623730,
+      "name": "Palworld",
+      "tags": [
+        "Open World",
+        "Survival",
+        "Creature Collector",
+        "Multiplayer"
+      ],
+      "reviewPct": 94,
+      "reviewCount": 380709,
+      "short": "Fight, farm, build and work alongside mysterious creatures called &quot;Pals&quot; in this completely new multiplayer, open world survival and crafting game!"
+    },
+    {
+      "appid": 1665460,
+      "name": "eFootball™",
+      "tags": [
+        "Football (Soccer)",
+        "Free to Play",
+        "Controller",
+        "Multiplayer"
+      ],
+      "reviewPct": 48,
+      "reviewCount": 92333,
+      "short": "Step up and experience the exhilarating soccer game that has now surpassed 1 billion downloads! Play eFootball™ with users around the world!"
+    },
+    {
+      "appid": 1811260,
+      "name": "EA SPORTS™ FIFA 23",
+      "tags": [
+        "Football (Soccer)",
+        "Sports",
+        "Controller",
+        "e-sports"
+      ],
+      "reviewPct": 57,
+      "reviewCount": 151419,
+      "short": "FIFA 23 brings The World’s Game to the pitch, with HyperMotion2 Technology, men’s and women’s FIFA World Cup™, women’s club teams, cross-play features**, and more."
+    },
+    {
+      "appid": 1938090,
+      "name": "Call of Duty®",
+      "tags": [
+        "FPS",
+        "Multiplayer",
+        "Shooter",
+        "Singleplayer"
+      ],
+      "reviewPct": 59,
+      "reviewCount": 714114,
+      "short": "The Call of Duty® experience supports Modern Warfare® 4, Black Ops 7 and Call of Duty®: Warzone™."
+    },
+    {
+      "appid": 1966720,
+      "name": "Lethal Company",
+      "tags": [
+        "Online Co-Op",
+        "Horror",
+        "First-Person",
+        "Co-op"
+      ],
+      "reviewPct": 97,
+      "reviewCount": 487160,
+      "short": "A co-op horror about scavenging at abandoned moons to sell scrap to the Company."
+    },
+    {
+      "appid": 2186680,
+      "name": "Warhammer 40,000: Rogue Trader",
+      "tags": [
+        "Character Customization",
+        "Cinematic",
+        "Story Rich",
+        "Turn-Based Strategy"
+      ],
+      "reviewPct": 86,
+      "reviewCount": 30805,
+      "short": "Made in a close partnership with Games Workshop, Warhammer 40,000: Rogue Trader is a story-rich classical RPG from Owlcat Games, developers of the critically acclaimed game, Pathfinder: Wrath of the Righteous."
+    },
+    {
+      "appid": 2246340,
+      "name": "Monster Hunter Wilds",
+      "tags": [
+        "Hunting",
+        "Action",
+        "Multiplayer",
+        "Online Co-Op"
+      ],
+      "reviewPct": 58,
+      "reviewCount": 218415,
+      "short": "The unbridled force of nature runs wild and relentless, with environments transforming drastically from one moment to the next. This is a story of monsters and humans and their struggles to live in harmony in a world of duality."
+    },
+    {
+      "appid": 2358720,
+      "name": "Black Myth: Wukong",
+      "tags": [
+        "Mythology",
+        "Action RPG",
+        "Action",
+        "Souls-like"
+      ],
+      "reviewPct": 97,
+      "reviewCount": 1150098,
+      "short": "Black Myth: Wukong is an action RPG rooted in Chinese mythology. You shall set out as the Destined One to venture into the challenges and marvels ahead, to uncover the obscured truth beneath the veil of a glorious legend from the past."
+    },
+    {
+      "appid": 2694490,
+      "name": "Path of Exile 2",
+      "tags": [
+        "Action RPG",
+        "Hack and Slash",
+        "RPG",
+        "Souls-like"
+      ],
+      "reviewPct": 70,
+      "reviewCount": 169021,
+      "short": "Path of Exile 2 is a next generation Action RPG from Grinding Gear Games, featuring co-op for up to six players. Set years after the original Path of Exile, you will return to the dark world of Wraeclast and seek to end the corruption that is spreading."
+    },
+    {
+      "appid": 3164500,
+      "name": "Schedule I",
+      "tags": [
+        "Simulation",
+        "Co-op",
+        "Crime",
+        "Multiplayer"
+      ],
+      "reviewPct": 98,
+      "reviewCount": 204041,
+      "short": "From small-time dope pusher to kingpin - manufacture and distribute a range of drugs throughout the grungy city of Hyland Point. Expand your empire with properties, businesses, employees and more."
+    },
+    {
+      "appid": 3241660,
+      "name": "R.E.P.O.",
+      "tags": [
+        "Horror",
+        "Online Co-Op",
+        "Multiplayer",
+        "Comedy"
+      ],
+      "reviewPct": 97,
+      "reviewCount": 185642,
+      "short": "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires."
+    }
+  ]
+}

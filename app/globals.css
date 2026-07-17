@@ -1,0 +1,193 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-display: var(--font-bricolage), sans-serif;
+  --font-body: var(--font-hanken), sans-serif;
+  --font-script: var(--font-kaushan), cursive;
+
+  /* Paleta: voldog em modo noturno — musgo profundo, creme e lima */
+  --color-bg: #0d110c;
+  --color-surface: #151b13;
+  --color-surface-2: #1d251a;
+  --color-surface-3: #253022;
+  --color-line: #2e3a29;
+  --color-ink: #f2efe1;
+  --color-ink-dim: #a3b096;
+  --color-ink-faint: #6d7a62;
+  --color-moss: #93aa78;
+  --color-lime: #cfe94e;
+  --color-lime-deep: #a8c62c;
+  --color-danger: #e8846b;
+
+  --animate-pop-in: pop-in 0.7s cubic-bezier(0.22, 1.4, 0.36, 1) both;
+  --animate-fade-up: fade-up 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+  --animate-msg-in: msg-in 0.35s cubic-bezier(0.22, 1, 0.36, 1) both;
+  --animate-dot: dot-bounce 1.1s ease-in-out infinite;
+  --animate-window-bounce: window-bounce 0.65s cubic-bezier(0.28, 0.84, 0.42, 1);
+
+  @keyframes pop-in {
+    from {
+      opacity: 0;
+      transform: translateY(28px) scale(0.94);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(12px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes msg-in {
+    from {
+      opacity: 0;
+      transform: translateY(10px) scale(0.98);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+  @keyframes dot-bounce {
+    0%,
+    60%,
+    100% {
+      transform: translateY(0);
+      opacity: 0.4;
+    }
+    30% {
+      transform: translateY(-5px);
+      opacity: 1;
+    }
+  }
+  @keyframes window-bounce {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(-18px);
+    }
+    50% {
+      transform: translateY(0);
+    }
+    70% {
+      transform: translateY(-8px);
+    }
+    85% {
+      transform: translateY(0);
+    }
+  }
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  /* Atmosfera: dois halos de musgo derivando devagar */
+  background-image:
+    radial-gradient(52rem 36rem ellipse at 12% -8%, rgba(147, 170, 120, 0.1), transparent 60%),
+    radial-gradient(44rem 32rem ellipse at 96% 108%, rgba(207, 233, 78, 0.06), transparent 60%);
+  background-attachment: fixed;
+}
+
+/* Grain sutil por cima de tudo */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  pointer-events: none;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+::selection {
+  background: var(--color-lime);
+  color: var(--color-bg);
+}
+
+/* Scrollbar da área de mensagens */
+.chat-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-line) transparent;
+}
+.chat-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+.chat-scroll::-webkit-scrollbar-thumb {
+  background: var(--color-line);
+  border-radius: 999px;
+}
+
+/* Painel XAI: o card clicado "estica" até virar o painel (origem via
+   transform-origin inline, bounce vem do overshoot do cubic-bezier) */
+@keyframes card-morph {
+  from {
+    transform: scaleX(0.32) scaleY(0.97);
+    opacity: 0.5;
+  }
+  to {
+    transform: scaleX(1) scaleY(1);
+    opacity: 1;
+  }
+}
+
+/* Flutuação sutil dos doodles SVG decorativos */
+@keyframes doodle-float {
+  0%,
+  100% {
+    transform: translateY(0) rotate(-2deg);
+  }
+  50% {
+    transform: translateY(-9px) rotate(2.5deg);
+  }
+}
+
+/* Chuva ASCII estilo Matrix do fundo: cada coluna cai em loop contínuo */
+@keyframes matrix-fall {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(100vh);
+  }
+}
+
+/* Confetti do pop-up de comemoração (fora do @theme pra emitir sempre).
+   Burst radial a partir do centro; direção por peça via --dx/--dy/--rot */
+@keyframes confetti-burst {
+  0% {
+    transform: translate(-50%, -50%) translate(0, 0) rotate(0deg) scale(1);
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -50%) translate(var(--dx), var(--dy)) rotate(var(--rot)) scale(0.7);
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
