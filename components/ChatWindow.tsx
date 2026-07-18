@@ -5,6 +5,7 @@ import CelebrationPopup from "@/components/CelebrationPopup";
 import Doodle from "@/components/Doodle";
 import GameCard, { type RecommendedGame } from "@/components/GameCard";
 import SadPopup from "@/components/SadPopup";
+import { track } from "@/lib/analytics";
 import { localizeTag, useI18n } from "@/lib/i18n";
 import type { ChatTurn } from "@/lib/types";
 
@@ -81,6 +82,12 @@ export default function ChatWindow({ allowAdult }: { allowAdult: boolean }) {
     const text = rawText.trim().slice(0, MAX_INPUT_LENGTH);
     if (!text || loading || limitReached) return;
 
+    // Funil: ativação (1ª mensagem) + profundidade (nº da mensagem na sessão)
+    if (!options?.isRetry) {
+      if (userMessageCount === 0) track("first_message_sent");
+      track("message_sent", { turn: userMessageCount + 1 });
+    }
+
     setFailedText(null);
     setExpandedCard(null);
     setMessages((prev) => {
@@ -106,17 +113,20 @@ export default function ChatWindow({ allowAdult }: { allowAdult: boolean }) {
       const data = await res.json();
 
       if (data.notFound || !data.games?.length) {
+        track("no_results");
         setMessages((prev) => [
           ...prev,
           { id: nextId++, role: "bot", kind: "empty", text: data.reply || "" },
         ]);
       } else {
+        track("recommendations_shown", { count: data.games.length });
         setMessages((prev) => [
           ...prev,
           { id: nextId++, role: "bot", kind: "normal", text: data.reply, games: data.games },
         ]);
       }
     } catch {
+      track("error_shown");
       setFailedText(text);
       setMessages((prev) => [...prev, { id: nextId++, role: "bot", kind: "error", text: "" }]);
     } finally {
@@ -132,8 +142,7 @@ export default function ChatWindow({ allowAdult }: { allowAdult: boolean }) {
   const handleUseful = (id: number) => {
     setThankedIds((prev) => new Set(prev).add(id));
     setCelebrating(true);
-    // TODO Fase 4: evento PostHog (métrica norte: descoberta bem-sucedida)
-    console.log("[analytics] recommendation_useful");
+    track("recommendation_useful");
   };
 
   const handleNewSearch = () => {
@@ -307,24 +316,27 @@ export default function ChatWindow({ allowAdult }: { allowAdult: boolean }) {
                   {msg.text}
                 </p>
                 {msg.games && (
-                  <div className="relative grid grid-cols-1 gap-3 sm:grid-cols-3">
-                    {msg.games.map((game, i) => (
-                      <div
-                        key={game.appid}
-                        className="animate-fade-up h-full"
-                        style={{
-                          animationDelay: `${i * 0.35}s`,
-                          animationDuration: "0.65s",
-                          // Ease-in acentuado: o card chega devagar antes de assentar
-                          animationTimingFunction: "cubic-bezier(0.55, 0.06, 0.35, 1)",
-                        }}
-                      >
-                        <GameCard
-                          game={game}
-                          onExpand={() => setExpandedCard({ msgId: msg.id, game, index: i })}
-                        />
-                      </div>
-                    ))}
+                  <div className="relative">
+                    {/* Mobile: carrossel horizontal com snap. Desktop: grid de 3 */}
+                    <div className="chat-scroll -mx-1 flex snap-x snap-mandatory gap-3 overflow-x-auto px-1 pb-1 sm:mx-0 sm:grid sm:grid-cols-3 sm:overflow-x-visible sm:px-0 sm:pb-0">
+                      {msg.games.map((game, i) => (
+                        <div
+                          key={game.appid}
+                          className="animate-fade-up w-[76%] shrink-0 snap-center sm:w-auto"
+                          style={{
+                            animationDelay: `${i * 0.35}s`,
+                            animationDuration: "0.65s",
+                            // Ease-in acentuado: o card chega devagar antes de assentar
+                            animationTimingFunction: "cubic-bezier(0.55, 0.06, 0.35, 1)",
+                          }}
+                        >
+                          <GameCard
+                            game={game}
+                            onExpand={() => setExpandedCard({ msgId: msg.id, game, index: i })}
+                          />
+                        </div>
+                      ))}
+                    </div>
 
     {/* Painel XAI expandido: o card clicado se estica sobre os outros dois */}
                     {expandedCard?.msgId === msg.id && (
@@ -399,7 +411,14 @@ export default function ChatWindow({ allowAdult }: { allowAdult: boolean }) {
                               href={expandedCard.game.steamUrl}
                               target="_blank"
                               rel="noopener noreferrer"
-                              onClick={(e) => e.stopPropagation()}
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                track("steam_link_clicked", {
+                                  appid: expandedCard.game.appid,
+                                  name: expandedCard.game.name,
+                                  from: "expanded",
+                                });
+                              }}
                               className="inline-flex items-center gap-1.5 rounded-full bg-lime px-3.5 py-1.5 text-xs font-bold text-bg transition-transform hover:-translate-y-0.5 hover:bg-lime-deep"
                             >
                               {t.viewOnSteam}

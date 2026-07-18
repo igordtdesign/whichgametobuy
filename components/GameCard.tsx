@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { track } from "@/lib/analytics";
 import { useI18n } from "@/lib/i18n";
 
 export interface RecommendedGame {
@@ -82,7 +83,10 @@ export default function GameCard({
           href={game.steamUrl}
           target="_blank"
           rel="noopener noreferrer"
-          onClick={(e) => e.stopPropagation()}
+          onClick={(e) => {
+            e.stopPropagation();
+            track("steam_link_clicked", { appid: game.appid, name: game.name });
+          }}
           className="mt-auto inline-flex items-center justify-center gap-1.5 rounded-full bg-lime px-3 py-1.5 text-xs font-bold text-bg transition-transform hover:-translate-y-0.5 hover:bg-lime-deep"
         >
           {t.viewOnSteam}

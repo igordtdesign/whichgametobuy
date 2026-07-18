@@ -5,6 +5,7 @@ import ChatWindow from "@/components/ChatWindow";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import MatrixRain from "@/components/MatrixRain";
+import PostHogInit from "@/components/PostHogInit";
 import Tagline from "@/components/Tagline";
 import { I18nProvider } from "@/lib/i18n";
 
@@ -22,6 +23,7 @@ export default function Home() {
 
   return (
     <I18nProvider>
+      <PostHogInit />
       <MatrixRain />
       <div className="flex min-h-dvh flex-col">
         <Header allowAdult={allowAdult} onAllowAdultChange={handleAllowAdultChange} />
