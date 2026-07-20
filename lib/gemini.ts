@@ -1,6 +1,4 @@
-import { findGame, getCatalog } from "./catalog";
-import { preselectCandidates } from "./recommend";
-import type { RecommendRequest, RecommendResponse } from "./types";
+import type { Game, RecommendRequest, RecommendResponse } from "./types";
 
 const LOCALE_NAMES: Record<string, string> = {
   en: "English",
@@ -16,10 +14,13 @@ const LOCALE_NAMES: Record<string, string> = {
 const FALLBACK_MODELS = ["gemini-flash-latest", "gemini-flash-lite-latest"];
 
 /**
- * Recomendação via Gemini, com o catálogo como grounding.
- * O modelo só pode escolher jogos da lista de candidatos — nunca inventar.
+ * Recomendação via Gemini. Os candidatos vêm de fora (busca vetorial do
+ * Supabase ou pré-seleção por tag). O modelo só escolhe dessa lista.
  */
-export async function geminiRecommend(req: RecommendRequest): Promise<RecommendResponse> {
+export async function geminiRecommend(
+  req: RecommendRequest,
+  candidates: Game[],
+): Promise<RecommendResponse> {
   const apiKey = process.env.GEMINI_API_KEY;
   if (!apiKey) throw new Error("GEMINI_API_KEY not set");
 
@@ -31,7 +32,7 @@ export async function geminiRecommend(req: RecommendRequest): Promise<RecommendR
   let lastError: unknown;
   for (const model of models) {
     try {
-      return await callModel(model, apiKey, req);
+      return await callModel(model, apiKey, req, candidates);
     } catch (err) {
       lastError = err;
       console.warn(
@@ -46,9 +47,10 @@ async function callModel(
   model: string,
   apiKey: string,
   req: RecommendRequest,
+  candidateGames: Game[],
 ): Promise<RecommendResponse> {
-  const pool = getCatalog().filter((g) => (req.allowAdult ? true : !g.adult));
-  const candidates = preselectCandidates(req.turns, pool, 40)
+  const allowed = new Set(candidateGames.map((g) => g.appid));
+  const candidates = candidateGames
     .map(
       (g) =>
         `- appid ${g.appid}: ${g.name} | tags: ${g.tags.join(", ")} | ${g.reviewPct}% positive | ${g.short}`,
@@ -107,7 +109,7 @@ Return JSON: {"reply": string, "picks": [{"appid": number, "reason": string}], "
   if (!text) throw new Error("Empty Gemini response");
 
   const parsed = JSON.parse(text) as RecommendResponse;
-  // Garante que só jogos reais do catálogo passam pro frontend
-  parsed.picks = (parsed.picks ?? []).filter((p) => findGame(p.appid)).slice(0, 3);
+  // Garante que o modelo só devolveu jogos que estavam nos candidatos
+  parsed.picks = (parsed.picks ?? []).filter((p) => allowed.has(p.appid)).slice(0, 3);
   return parsed;
 }

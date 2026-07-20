@@ -1,8 +1,9 @@
 import { NextResponse } from "next/server";
-import { findGame, steamHeaderUrl, steamStoreUrl } from "@/lib/catalog";
+import { findGame, getCatalog, steamHeaderUrl, steamStoreUrl } from "@/lib/catalog";
 import { geminiRecommend } from "@/lib/gemini";
-import { mockRecommend } from "@/lib/recommend";
-import type { RecommendRequest } from "@/lib/types";
+import { mockRecommend, preselectCandidates } from "@/lib/recommend";
+import { isSupabaseConfigured, vectorSearch } from "@/lib/supabase";
+import type { Game, RecommendRequest } from "@/lib/types";
 
 // Vercel Hobby: função serverless com padrão de 10s; Gemini + fallback podem
 // passar disso, então estende o limite
@@ -10,6 +11,24 @@ export const maxDuration = 60;
 
 const MAX_TURNS = 24;
 const MAX_MESSAGE_LENGTH = 280;
+
+/**
+ * Candidatos pro Gemini: busca vetorial no Supabase (semântica) com fallback
+ * pra pré-seleção por tag no catálogo local. Assim o site nunca fica sem
+ * recomendação, mesmo se o Supabase estiver fora.
+ */
+async function getCandidates(req: RecommendRequest): Promise<Game[]> {
+  if (isSupabaseConfigured()) {
+    try {
+      const found = await vectorSearch(req, 24);
+      if (found.length > 0) return found;
+    } catch (err) {
+      console.warn("[/api/chat] busca vetorial falhou, usando catálogo local:", err);
+    }
+  }
+  const pool = getCatalog().filter((g) => (req.allowAdult ? true : !g.adult));
+  return preselectCandidates(req.turns, pool, 40);
+}
 
 export async function POST(request: Request) {
   let body: RecommendRequest;
@@ -38,9 +57,11 @@ export async function POST(request: Request) {
 
   try {
     let result;
+    let candidates: Game[] = [];
     if (process.env.GEMINI_API_KEY) {
+      candidates = await getCandidates(req);
       try {
-        result = await geminiRecommend(req);
+        result = await geminiRecommend(req, candidates);
       } catch (err) {
         // Degradação graciosa: Gemini indisponível não derruba o produto
         console.error("[/api/chat] Gemini indisponível, usando motor mock:", err);
@@ -50,9 +71,10 @@ export async function POST(request: Request) {
       result = mockRecommend(req);
     }
 
+    const byId = new Map(candidates.map((g) => [g.appid, g]));
     const games = result.picks
       .map((p) => {
-        const game = findGame(p.appid);
+        const game = byId.get(p.appid) ?? findGame(p.appid);
         if (!game) return null;
         return {
           appid: game.appid,
